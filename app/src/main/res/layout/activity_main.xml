@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.ilightning.sharedpreferencesdemo.activity.MainActivity">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="Password"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Lưu dữ liệu" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Hiển thị kết quả" />
+
+
+</LinearLayout>
